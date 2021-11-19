@@ -1,0 +1,17 @@
+.aviao {
+    background-image: url(../Avião/sky.jpg);
+
+    animation: fly;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+
+    
+}
+@keyframes fly {
+    100%{
+        transform: translateX(865px);
+    }
+}
